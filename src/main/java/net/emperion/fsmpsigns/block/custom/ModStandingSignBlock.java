@@ -1,6 +1,6 @@
 package net.emperion.fsmpsigns.block.custom;
 
-import net.emperion.fsmpsigns.block.entity.renderer.ModSignBlockEntity;
+import net.emperion.fsmpsigns.block.entity.ModSignBlockEntity;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.level.block.StandingSignBlock;
 import net.minecraft.world.level.block.entity.BlockEntity;

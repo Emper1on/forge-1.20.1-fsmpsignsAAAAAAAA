@@ -2,7 +2,7 @@ package net.emperion.fsmpsigns;
 
 import com.mojang.logging.LogUtils;
 import net.emperion.fsmpsigns.block.ModBlocks;
-import net.emperion.fsmpsigns.block.entity.renderer.ModBlockEntites;
+import net.emperion.fsmpsigns.block.entity.ModBlockEntites;
 import net.emperion.fsmpsigns.item.ModCreativeModTabs;
 import net.emperion.fsmpsigns.item.ModItems;
 import net.emperion.fsmpsigns.utils.ModWoodTypes;
@@ -14,7 +14,6 @@ import net.minecraftforge.event.server.ServerStartingEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.fml.config.ModConfig;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;

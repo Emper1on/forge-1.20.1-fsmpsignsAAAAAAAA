@@ -1,4 +1,4 @@
-package net.emperion.fsmpsigns.block.entity.renderer;
+package net.emperion.fsmpsigns.block.entity;
 
 import net.emperion.fsmpsigns.block.ModBlocks;
 import net.emperion.fsmpsigns.fsmpSigns;
