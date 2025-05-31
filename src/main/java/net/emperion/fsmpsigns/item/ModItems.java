@@ -2,6 +2,7 @@ package net.emperion.fsmpsigns.item;
 
 import net.emperion.fsmpsigns.block.ModBlocks;
 import net.emperion.fsmpsigns.fsmpSigns;
+import net.emperion.fsmpsigns.item.custom.InfiniteModSign;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.SignItem;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -14,7 +15,7 @@ public class ModItems {
             DeferredRegister.create(ForgeRegistries.ITEMS, fsmpSigns.MOD_ID);
 
     public static final RegistryObject<Item> SIGN_WLODYKA = ITEMS.register("sign_wlodyka_item",
-            () -> new SignItem(new Item.Properties().stacksTo(64), ModBlocks.SIGN_WLODYKA.get(), ModBlocks.SIGN_WALL_WLODYKA.get()));
+            () -> new InfiniteModSign(new Item.Properties().stacksTo(1), ModBlocks.SIGN_WLODYKA.get(), ModBlocks.SIGN_WALL_WLODYKA.get()));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
